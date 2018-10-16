@@ -5,7 +5,7 @@ import time
 # Input the selected year and month
 year = 2018
 month = 9
-nbDays = calendar.monthrange(2018,month)[1]
+nbDays = calendar.monthrange(year,month)[1]
 
 # For each day in the selected month
 for x in range(1, nbDays+1):
